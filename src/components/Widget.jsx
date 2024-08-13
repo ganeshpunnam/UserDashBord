@@ -18,7 +18,7 @@ const Widget = ({ categoryId, widget }) => {
     <div className="widget">
       <h4>{widget.name}</h4>
       <p>{widget.text}</p>
-      <button onClick={handleRemoveWidget}>Remove</button>
+      <button onClick={handleRemoveWidget}>Remov e </button>
     </div>
   );
 };
