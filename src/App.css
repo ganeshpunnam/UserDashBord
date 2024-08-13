@@ -1,0 +1,52 @@
+.App {
+  padding: 20px;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.widget {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 48%;
+}
+
+.add-widget-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-widget-form input,
+.add-widget-form textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-widget-form button {
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
